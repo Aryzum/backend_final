@@ -3,7 +3,8 @@
 Este projeto é um gerenciador de tarefas com um painel administrativo. Ele consiste em um backend Node.js e um frontend React.
 
 LINK PARA O README DO FRONTEND https://github.com/Aryzum/trabalho_final/tree/main/frontend#readme
-LINK PARA O README DO BACKENDhttps://github.com/Aryzum/trabalho_final/tree/main/backend#readme
+
+LINK PARA O README DO BACKEND https://github.com/Aryzum/trabalho_final/tree/main/backend#readme
 
 ## Pré-requisitos
 
