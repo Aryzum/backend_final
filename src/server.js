@@ -10,7 +10,7 @@ const server = express()
 // Middlewares de segurança e configuração
 server.use(express.json({ limit: '10kb' })) // Limita o tamanho do payload JSON
 server.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:5173', // URL do frontend
+  origin: 'https://frontend-final-eta-five.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
