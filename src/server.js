@@ -2,7 +2,9 @@ import express from 'express'
 import cors from 'cors'
 import { connectDB } from './database.js'
 import { routes } from './routes.js'
+import dotenv from 'dotenv'
 
+dotenv.config()
 const server = express()
 
 // Middlewares de segurança e configuração
